@@ -9,17 +9,33 @@
     <div class="title">
         <span class="welcome">Welcome to my Web Calculator!</span>
     </div>
-    <div class="instructions">
-        <span class="choose">Please choose two numbers for me to add.</span>
-    </div>
-    <div>
-        <form>
-            <input type="text" name="firstNumber" id="firstNumber" />
-            <input type="text" name="secondNumber" id="secondNumber" /><br />
-            <input type="image" id="unicorn" src="images/unicorn-button.png" value="Calculate" onclick="sum()" />
+    <div class="chooseNumbers">
+        <span class="numbers">Please choose two numbers for me to calculate.</span>
+        <div>
+            <form>
+                <input type="text" name="firstNumber" id="firstNumber" />
+                <input type="text" name="secondNumber" id="secondNumber" /><br />
+            </form>
+            <div class="operation">
+                <span class="numbers">Please select which operation you'd like me to perform.</span><br />
+                <select id="operation">
+                    <option value=""></option>
+                    <option value="addition">Addition</option>
+                    <option value="subtraction">Subtraction</option>
+                    <option value="multiplication">Multiplication</option>
+                    <option value="division">Division</option>
 
-        </form>
+                </select>
+            </div>
+
+
+        </div>
     </div>
+    <div class="image">
+        <input type="image" id="unicorn" src="images/unicorn-button.png" value="Calculate" onclick="calculate()" />
+    </div>
+
+
 </body>
 
 </html>

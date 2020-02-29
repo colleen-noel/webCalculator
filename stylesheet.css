@@ -20,13 +20,13 @@ body{
 
 }
 
-.instructions{
+.chooseNumbers{
     color: black;
     text-align: center;
     padding: 56px;
 }
 
-.choose{
+.numbers{
     background-color:rgb(203, 228, 250);
     padding:7;
     font-size: large;
@@ -37,8 +37,18 @@ form{
     padding: 30;
 }
 
+#operation{
+    padding: 5px;
+    margin: 15px;
+
+}
+
+.image{
+    text-align: center;
+}
+
 #unicorn{
     width: 250px;
     height: 250px;
-
+    
 }
