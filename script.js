@@ -4,36 +4,36 @@ function calculate() {
     var secondNumElement = document.getElementById("secondNumber")
     var firstNumber = parseInt(firstNumElement.value)
     var secondNumber = parseInt(secondNumElement.value)
+    var answer = null
 
 
 
     if (operationDropDown.value === "addition") {
-        var sum = firstNumber + secondNumber
-        alert("Your answer is " + sum)
-        firstNumElement.value = ""
-        secondNumElement.value = ""
+        answer = firstNumber + secondNumber
+        alert("Your answer is " + answer)
+
     }
     else if (operationDropDown.value === "subtraction") {
-        var difference = firstNumber - secondNumber
-        alert("Your answer is " + difference)
-        firstNumElement.value = ""
-        secondNumElement.value = ""
+        answer = firstNumber - secondNumber
+        alert("Your answer is " + answer)
+
     }
     else if (operationDropDown.value === "multiplication") {
-        var product = firstNumber * secondNumber
-        alert("Your answer is " + product)
-        firstNumElement.vaue = ""
-        secondNumElement.value = ""
+        answer = firstNumber * secondNumber
+        alert("Your answer is " + answer)
+
     }
     else if (operationDropDown.value === "division") {
-        var quotient = firstNumber / secondNumber
-        alert("Your answer is " + quotient)
-        firstNumElement.value = ""
-        secondNumElement.value = ""
+        answer = firstNumber / secondNumber
+        alert("Your answer is " + answer)
+
     }
     else {
         alert("Please choose an operation.")
+
     }
+    firstNumElement.value = ""
+    secondNumElement.value = ""
 }
 
 
