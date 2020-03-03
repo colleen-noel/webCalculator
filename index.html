@@ -1,0 +1,41 @@
+<html>
+<header>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+
+</header>
+
+<body>
+    <div class="title">
+        <span class="welcome">Welcome to my Web Calculator!</span>
+    </div>
+    <div class="chooseNumbers">
+        <span class="numbers">Please choose two numbers for me to calculate.</span>
+        <div>
+            <form>
+                <input type="text" name="firstNumber" id="firstNumber" />
+                <input type="text" name="secondNumber" id="secondNumber" /><br />
+            </form>
+            <div class="operation">
+                <span class="numbers">Please select which operation you'd like me to perform.</span><br />
+                <select id="operation">
+                    <option value=""></option>
+                    <option value="addition">Addition</option>
+                    <option value="subtraction">Subtraction</option>
+                    <option value="multiplication">Multiplication</option>
+                    <option value="division">Division</option>
+
+                </select>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="image">
+        <input type="image" id="unicorn" src="images/unicorn-button.png" value="Calculate" onclick="calculate()" />
+    </div>
+
+
+</body>
+
+</html>

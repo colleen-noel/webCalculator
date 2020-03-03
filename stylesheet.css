@@ -1,0 +1,54 @@
+body{
+    background-image: url("./images/trisectednubula.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.title{
+    color: palevioletred;
+    text-shadow: -1px 2px gray;
+    text-align: center;
+    padding: 74px;
+
+}
+
+.welcome{
+    background-color: rgb(170, 207, 240);
+    padding: 20px;
+    font-size: xx-large;
+
+}
+
+.chooseNumbers{
+    color: black;
+    text-align: center;
+    padding: 56px;
+}
+
+.numbers{
+    background-color:rgb(203, 228, 250);
+    padding:7;
+    font-size: large;
+}
+
+form{
+    text-align: center;
+    padding: 30;
+}
+
+#operation{
+    padding: 5px;
+    margin: 15px;
+
+}
+
+.image{
+    text-align: center;
+}
+
+#unicorn{
+    width: 250px;
+    height: 250px;
+    
+}
